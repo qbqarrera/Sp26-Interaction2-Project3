@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOODLE A SONG!</title>
+    <link rel="icon" type="image/x-icon" href="nonphotoblue.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="headbar">
+
+
+<div class="search-bar">
+<input type="text" id="searchInput" placeholder="specify song title, artist name, album...">
+<button id="searchBtn">search</button>
+</div>
+
+<div class="menu">
+<a href="index.html" class="other-page">browse</a>/<a href="doodle.html" class="this-page">doodle</a>
+</div>
+</div>
+
+
+<div class="now-playing-bar">
+<div id="results"></div>
+<div id="player"></div>
+<div id="now-playing">find a song to listen while you doodle!</div>
+<div id="timestamp"></div>
+</div>
+
+
+<!-- doodle grid -->
+
+
+<div class="doodle">
+  <div></div>
+  <div id="grid"></div>
+  <div class="doodle-buttons" style="display:none">
+    <button id="clearBtn">clear all</button>
+    <button id="publishBtn">publish</button>
+    <button id="discardBtn">discard</button>
+  </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
